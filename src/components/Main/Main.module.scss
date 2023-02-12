@@ -1,0 +1,14 @@
+.main{
+	height: 100%;
+	position: relative;
+	background: #1C1F21;
+	background-size: cover;
+	padding: 40px 60px;
+	@media(max-width: 577px) {
+			padding: 38px 0px;
+		}
+
+				text-align: center;
+}
+
+
