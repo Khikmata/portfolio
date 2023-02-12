@@ -12,11 +12,11 @@ const Contacts = (props) => {
 			<div className={styles.contacts__grid__item}>
 				<a href='mailto:windycate03@gmail.com' className={styles.contacts__grid__item__container}>
 					<img className={styles.contacts__grid__item__container__image} src={email} alt={'email icon'} />
-					<p className={styles.contacts__grid__item__container__title}> windycate03@gmail.com </p>
+					<p className={styles.contacts__grid__item__container__title}></p>
 				</a>
 				<a href='https://t.me/Khikmata' className={styles.contacts__grid__item__container}>
 					<img className={styles.contacts__grid__item__container__image} src={tg} alt={'tg icon'} />
-					<p className={styles.contacts__grid__item__container__title}> @khikmata </p>
+					<p className={styles.contacts__grid__item__container__title}></p>
 				</a>
 			</div>
 		</div>

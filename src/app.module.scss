@@ -47,3 +47,20 @@ $xxl: 1400px;
 	padding: 0 40px;
 	scroll-behavior: smooth;
 }
+
+
+.author {
+	position: absolute;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 300;
+	margin-top: 40px;
+	position: absolute;
+	bottom: 0;
+	color: rgb(255, 255, 255, 0.6);
+
+	span {
+		font-size: 10px;
+		color: rgb(255, 255, 255, 0.6);
+	}
+}

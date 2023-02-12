@@ -32,14 +32,14 @@ const Header = () => {
 									<span className={styles.burger__menu__lines}></span>
 									<span className={styles.burger__menu__lines}></span>
 								</> :
-								<img className={styles.burger__menu__close} width={25} src={close}></img>
+								<img className={styles.burger__menu__close} width={25} src={close} alt='Close Icon' ></img>
 						}
 
 						<ul className={styles[`${burgerOpen ? 'burger__menu__list__active' : 'burger__menu__list'}`]}>
-							<li><a href='#about'><img width={30} src={about} /></a></li>
-							<li><a href='#skills'><img width={30} src={skills} /></a></li>
-							<li><a href='#projects'><img width={30} src={projects} /></a></li>
-							<li><a href='#contacts'><img width={30} src={contacts} /></a></li>
+							<li><a href='#about'><img width={30} src={about} alt='About Icon' /></a></li>
+							<li><a href='#skills'><img width={30} src={skills} alt='About Icon' /></a></li>
+							<li><a href='#projects'><img width={30} src={projects} alt='About Icon' /></a></li>
+							<li><a href='#contacts'><img width={30} src={contacts} alt='About Icon' /></a></li>
 						</ul>
 					</div>
 
