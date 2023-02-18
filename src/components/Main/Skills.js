@@ -23,7 +23,7 @@ const Skills = (props) => {
 
 	return (
 		<div className={styles.skill}>
-			<a id='skills' className={styles[`skill${props.scrollPos > 1300 && props.scrollPos < 1700 ? '__active' : ''}`]} href='#skills'>Skills</a>
+			<a id='skills' className={styles[`skill${props.scrollPos > 1300 && props.scrollPos < 1700 ? '__active' : ''}`]} href='#skills'>Технологии <br /></a>
 
 			<div className={styles.skill__grid}>
 

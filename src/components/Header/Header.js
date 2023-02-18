@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { TypeAnimation } from 'react-type-animation'
 import styles from '../Header/Header.module.scss'
 import about from './header-icons/about.png'
 import contacts from './header-icons/contact-mail.png'
@@ -19,10 +20,10 @@ const Header = () => {
 			<nav>
 				<div className={styles.nav__leftside}>
 					<ul className={styles.nav__leftside__links}>
-						<li><a href='#about'>About me</a></li>
-						<li><a href='#skills'>Skills</a></li>
-						<li><a href='#projects'>My Projects</a></li>
-						<li><a href='#contacts'>Contacts</a></li>
+						<li><a href='#about'>Обо мне</a></li>
+						<li><a href='#skills'>Технологии</a></li>
+						<li><a href='#projects'>Проекты</a></li>
+						<li><a href='#contacts'>Мои контакты</a></li>
 					</ul>
 					<div onClick={() => setBurgerOpen(!burgerOpen)} className={styles.burger__menu}>
 						{
@@ -45,12 +46,20 @@ const Header = () => {
 
 				</div>
 				<div className={styles.nav__rightside}>
-					<a href='https://kazan.hh.ru/resume/42354495ff0b6c9a8b0039ed1f4974684c4345'>Resume</a>
+					<a href='https://kazan.hh.ru/resume/42354495ff0b6c9a8b0039ed1f4974684c4345'>Резюме</a>
 				</div>
 			</nav>
 			<div className={styles.content}>
-				<h1>Hello, </h1>
-				<p className={styles.green}> <span> Welcome to my </span> portfolio page  </p>
+				<h1>Привет, </h1>
+				<TypeAnimation
+					sequence={[
+						'Добро пожаловать на мою страницу!', // Types 'One'
+					]}
+					wrapper="div"
+					cursor={true}
+					repeat={false}
+					style={{ fontSize: '1.8em' }}
+				/>
 				<p> </p>
 			</div>
 

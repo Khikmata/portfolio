@@ -7,7 +7,7 @@ import reactCinemaIcon from '../../assets/icons/react-cinema.svg'
 const Projects = (props) => {
 	return (
 		<div className={styles.projects}>
-			<a className={styles[`projects${props.scrollPos > 2000 && props.scrollPos < 2500 ? '__active' : ''}`]} href='#projects'>My Projects <br /> <span>The biggest ones</span></a>
+			<a className={styles[`projects${props.scrollPos > 2000 && props.scrollPos < 2500 ? '__active' : ''}`]} href='#projects'>Пет-проекты <br /></a>
 			<div className={styles.projects__grid__item}>
 				<a href='https://github.com/Khikmata/pizza-shop' className={styles.projects__grid__item__container}>
 					<img className={styles.projects__grid__item__container__image} src={reactPizzaIcon} alt={'react-pizza'} />
